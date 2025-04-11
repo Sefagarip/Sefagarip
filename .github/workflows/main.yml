@@ -30,12 +30,18 @@ jobs:
       - name: Check generated files
         run: ls -la dist/
 
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add dist/
+          git commit -m "Update snake animation" || echo "No changes to commit"
+
       - name: Push changes to main
         uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
-          force: true # Eğer force gerekliyse bırakabilirsiniz, ama dikkatli olun
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
