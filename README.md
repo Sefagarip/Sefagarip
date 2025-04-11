@@ -1,6 +1,6 @@
 <h1 align="center">👋 Merhaba, ben Sefa Garip</h1>
 <p align="center">
-  💻 Full-Stack Developer • 📊 Veri Odaklı Geliştirici • 🎯 Proje Takipçisi <br>
+  💻 Full-Stack Developer • 📊 Veri Odaklı Geliştirici • 🎯 Proje Yöneticisi <br>
   <em>"Yazılım; problemi anlamakla başlar, çözümle devam eder."</em><br>
   <em>"Kod yazmak, bir problemi çözmek için yalnızca araçtır; asıl beceri, doğru problemi bulmaktır."</em>
 </p>
